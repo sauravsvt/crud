@@ -11,7 +11,6 @@ console.log(uuidv4())
 const cors = require('cors');
 const app = express();
 var router = express.Router();
-app.use(cors())
 app.use(bodyParser.urlencoded({extended:false}));
 app.use(router);
 const bcrypt = require('bcrypt')
@@ -801,7 +800,7 @@ console.log("send-email working with id", email)
     service: 'gmail',
     auth: {
         user: 'saurav.shriwastav@girnarsoft.co.in',
-        pass: 'Peace-4403'
+        pass: '....................'
     }
 });
 
