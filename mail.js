@@ -7,7 +7,7 @@ function sendEmail () {
         service: 'gmail',
         auth: {
             user: 'saurav.shriwastav@girnarsoft.co.in',
-            pass: 'Peace-4403'
+            pass: '.............'
         }
     });
     
